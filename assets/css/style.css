@@ -79,19 +79,23 @@ img {
     box-sizing: border-box;
     border: 0;
     padding: 0;
+    border: 0;
   }
   #lezioni, #why {
     background-color: #f2f2cd;
   }
   h1{
     font-size: 1.2rem;
+    padding-top: 10px;
   }
   h3{
     font-size: 0.9rem;
   }
   .row {
-    max-width: 200px;
+    width:100%;
     margin-top: 0;
+    padding: 0 10px;
+
   }
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
@@ -116,7 +120,8 @@ img {
   padding-top:1rem;
   }
   img {
-    height: 100px;
+    height: 100%;
+    max-height: 100px;
   }
 
   #why .row>.first, #why .row>.second, #why .row>.third{
