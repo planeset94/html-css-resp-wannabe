@@ -71,3 +71,54 @@ img {
 .clear {
   clear: both;
 }
+
+/* ----MEDIA QUERY----- */
+
+@media screen and (max-width:420px){
+  *{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+  }
+  #lezioni, #why {
+    background-color: #f2f2cd;
+  }
+  .row {
+    max-width: 150px;
+    margin-top: 0;
+    
+  }
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+
+  /* BLOCCO STEPS */
+ 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+
+  .row img {
+  padding-top:1rem;
+  }
+  img {
+    height: 100px;
+  }
+
+  #why .row>.first, #why .row>.second, #why .row>.third{
+    margin-top: 10px;
+    padding: 0 30px;
+ 
+  }
+
+  hr{
+    height: 1px;
+    background-color: #585858;
+   }
+}
