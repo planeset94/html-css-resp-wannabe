@@ -83,10 +83,15 @@ img {
   #lezioni, #why {
     background-color: #f2f2cd;
   }
+  h1{
+    font-size: 1.2rem;
+  }
+  h3{
+    font-size: 0.9rem;
+  }
   .row {
-    max-width: 150px;
+    max-width: 200px;
     margin-top: 0;
-    
   }
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
@@ -103,6 +108,9 @@ img {
     float: left;
     width: 100%;
   }
+  #steps{
+    background-color: white;
+  }
 
   .row img {
   padding-top:1rem;
@@ -113,7 +121,6 @@ img {
 
   #why .row>.first, #why .row>.second, #why .row>.third{
     margin-top: 10px;
-    padding: 0 30px;
  
   }
 
